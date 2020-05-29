@@ -1,0 +1,86 @@
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+  --second-text-color: #ffffff;
+  --body-color: #ffffff;
+  --second-body-color: #f5f4fa;
+  --footer-background-color: #2f303a;
+  --adress-footer-color: rgba(255, 255, 255, 0.6);
+  --second-footer-color: rgba(255, 255, 255, 0.4);
+}
+body {
+  background-color: var(--second-text-color);
+  color: var(--title-text-color);
+}
+/* header container */
+.logo {
+  color: var(--primary-text-color);
+}
+.accent-logo {
+  color: var(--accent-color);
+}
+ul {
+  list-style: none;
+}
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.contacts-nav .contacts {
+  color: var(--primary-text-color);
+}
+.contacts-nav .contacts:hover,
+.contacts-nav .contacts:focus {
+  color: var(--accent-color);
+}
+/*main container */
+.aside-title {
+  color: var(--primary-text-color);
+}
+/* profit */
+.profit-title {
+  color: var(--primary-text-color);
+}
+/* section title */
+.section-team {
+  background-color: var(--second-body-color);
+}
+.section-title {
+  color: var(--primary-text-color);
+}
+.work-text {
+  color: var(--primary-text-color);
+}
+.section-name {
+  color: var(--primary-text-color);
+}
+/*footer */
+.footer {
+  background-color: var(--footer-background-color);
+}
+.adress-main {
+  color: var(--body-color);
+}
+.adress-info {
+  color: var(--adress-footer-color);
+}
+.footer-logo {
+  color: var(--second-text-color);
+}
+.button-primary {
+  color: var(--second-text-color);
+}
+.footer-down {
+  color: var(--second-footer-color);
+}
+.footer-logo {
+  color: var(--second-text-color);
+}
+.second-logo {
+  color: var(--second-text-color);
+}

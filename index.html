@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>webstudio</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
+
   <body>
     <!---Шапка сайта-->
     <header>
@@ -17,7 +22,7 @@
           >
           <!--навигация шапки сайта-->
           <ul class="site-nav-list">
-            <li><a href="./index.html" class="link"> Студия</a></li>
+            <li><a href="./index.html" class="link current"> Студия</a></li>
             <li><a href="./portfolio.html" class="link"> Портфолио</a></li>
             <li><a href="" class="link"> Контакты</a></li>
           </ul>
@@ -38,9 +43,9 @@
       </div>
     </header>
     <!-- main-->
-    <main class="main-container">
+    <main>
       <!--предложения-->
-      <section class="hero">
+      <section class="aside">
         <h1 class="aside-title">Эффективные решения для вашего бизнеса</h1>
         <a href="" class="aside-button">Заказать услугу</a>
       </section>
@@ -112,7 +117,7 @@
               width="370"
               height="294"
             />
-            <h3 class="work-text">Десктопные приложения</h3>
+            <h3 class="section-text">Десктопные приложения</h3>
           </li>
           <li>
             <img
@@ -121,7 +126,7 @@
               width="370"
               height="294"
             />
-            <h3 class="work-text">Мобильные приложения</h3>
+            <h3 class="section-text">Мобильные приложения</h3>
           </li>
           <li>
             <img
@@ -130,13 +135,13 @@
               width="370"
               height="294"
             />
-            <h3 class="work-text">Дизайнерские решения</h3>
+            <h3 class="section-text">Дизайнерские решения</h3>
           </li>
         </ul>
       </section>
       <!--команда-->
       <section class="section-team">
-        <h2 class="section-title">Наша команда</h2>
+        <h2 class="section-team-title">Наша команда</h2>
         <ul>
           <li>
             <img
@@ -145,8 +150,8 @@
               height="260"
               width="270"
             />
-            <h3 class="section-name">John Smith</h3>
-            <p class="team-profit">Product Designer</p>
+            <h3 class="section-team-name">John Smith</h3>
+            <p class="section-team-profit">Product Designer</p>
             <ul>
               <li><a href aria-label="Instagram">instagram</a></li>
               <li><a href aria-label="Twitter">Twitter</a></li>
@@ -161,8 +166,8 @@
               height="260"
               width="270"
             />
-            <h3 class="section-name">Marta Stewart</h3>
-            <p class="team-profit">Frontend Developer</p>
+            <h3 class="section-team-name">Marta Stewart</h3>
+            <p class="section-team-profit">Frontend Developer</p>
             <ul>
               <li><a href aria-label="Instagram">instagram</a></li>
               <li><a href aria-label="Twitter">Twitter</a></li>
@@ -177,8 +182,8 @@
               height="260"
               width="270"
             />
-            <h3 class="section-name">Robert Jakis</h3>
-            <p class="team-profit">Marketing</p>
+            <h3 class="section-team-name">Robert Jakis</h3>
+            <p class="section-team-profit">Marketing</p>
             <ul>
               <li><a href aria-label="Instagram">instagram</a></li>
               <li><a href aria-label="Twitter">Twitter</a></li>
@@ -193,8 +198,8 @@
               height="260"
               width="270"
             />
-            <h3 class="section-name">Martin Doe</h3>
-            <p class="team-profit">UI Designer</p>
+            <h3 class="section-team-name">Martin Doe</h3>
+            <p class="section-team-profit">UI Designer</p>
             <ul>
               <li><a href aria-label="Instagram">instagram</a></li>
               <li><a href aria-label="Twitter">Twitter</a></li>
@@ -205,8 +210,8 @@
         </ul>
       </section>
       <!-- Наши клиенты-->
-      <section class="section">
-        <h2 class="section-title">Постоянные клиенты</h2>
+      <section class="client-section">
+        <h2 class="client-section-title">Постоянные клиенты</h2>
         <ul>
           <li>
             <a href=""
@@ -268,7 +273,7 @@
     <!-- Футер-->
     <footer class="footer">
       <div>
-        <a href="index.html" class="-footer-logo">
+        <a href="index.html" class="footer-logo">
           <span class="accent-logo">Web</span>
           <span class="second-logo">Studio</span>
         </a>
@@ -281,15 +286,15 @@
           <a href="tel:+380991111111" class="adress-info">+38099 111 11 11</a>
         </address>
 
-        <b class="footer-logo">ПРИСОЕДЕНЯЙТЕСЬ</b>
+        <b class="footer-connect">ПРИСОЕДЕНЯЙТЕСЬ</b>
         <ul>
           <li><a href aria-label="Instagram">instagram</a></li>
           <li><a href aria-label="Twitter">Twitter</a></li>
           <li><a href aria-label="Facebook">Facebook</a></li>
           <li><a href aria-label="LinkeIn">LinkeIn</a></li>
         </ul>
-        <b class="footer-logo">ПОДПИШИТЕСЬ НА РАССЫЛКУ</b>
-        <a href="button-primary">Подписаться</a>
+        <b class="footer-news">ПОДПИШИТЕСЬ НА РАССЫЛКУ</b>
+        <a href="" class="button-primary">Подписаться</a>
         <p class="footer-down">2020 | Developed by GoIT Students</p>
       </div>
     </footer>

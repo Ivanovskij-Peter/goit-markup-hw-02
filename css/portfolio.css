@@ -74,12 +74,16 @@ ul {
   color: var(--second-text-color);
   background-color: var(--accent-color);
 }
+.example .works-title {
+  text-decoration: none;
+}
 .works-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
+  text-decoration: none;
 }
 .works-text {
   font-weight: 400;
@@ -87,8 +91,6 @@ ul {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
-}
-.example {
   text-decoration: none;
 }
 /*footer */

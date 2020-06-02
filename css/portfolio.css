@@ -12,10 +12,12 @@
 body {
   background-color: var(--second-text-color);
   color: var(--title-text-color);
+  font-family: Roboto;
+  letter-spacing: 0.03em;
+  font-size: 16px;
+  line-height: 1.19;
 }
-a {
-  text-decoration: none;
-}
+
 /* header container */
 .logo {
   color: var(--primary-text-color);
@@ -37,6 +39,7 @@ ul {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
+  text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -53,10 +56,39 @@ ul {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
+  text-decoration: none;
 }
 .contacts-nav .contacts:hover,
 .contacts-nav .contacts:focus {
   color: var(--accent-color);
+}
+/* main container */
+.button .link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--primary-text-color);
+}
+.button .link:hover,
+button .link:focus {
+  color: var(--second-text-color);
+  background-color: var(--accent-color);
+}
+.works-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+.works-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  text-decoration: none;
 }
 /*footer */
 .footer {
@@ -77,6 +109,7 @@ ul {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
+  text-decoration: none;
 }
 .footer-down {
   color: var(--second-footer-color);
@@ -93,6 +126,7 @@ ul {
   font-weight: 700;
   font-size: 22px;
   line-height: 1.2;
+  text-decoration: none;
 }
 .second-logo {
   color: var(--body-color);
@@ -122,4 +156,5 @@ ul {
   font-weight: 900;
   font-size: 16px;
   line-height: 1.9;
+  text-decoration: none;
 }

@@ -70,7 +70,7 @@ ul {
   color: var(--primary-text-color);
 }
 .button .link:hover,
-button .link:focus {
+.button .link:focus {
   color: var(--second-text-color);
   background-color: var(--accent-color);
 }
@@ -80,7 +80,6 @@ button .link:focus {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
-  text-decoration: none;
 }
 .works-text {
   font-weight: 400;
@@ -88,6 +87,8 @@ button .link:focus {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+}
+.example {
   text-decoration: none;
 }
 /*footer */
